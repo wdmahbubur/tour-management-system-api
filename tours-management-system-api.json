@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "63294e0df8b4d1ead27ca4f0"
+  },
+  "name": "TRIP TO NORTH BENGAL",
+  "type": "Inclusive",
+  "description": "2 DAYS , 1 NIGHTS. Come to North Bengal to experience great archeological sites of Bangladesh such as Mahasthan; North Bengal is also the place where the first settlers of Bangladesh came from, some come and see the start of the great civilization of the people of Bengal.",
+  "location": "BOGRA",
+  "price": 20000,
+  "image": "http://bengallogistics.org/admin/uploads/page//1548221522qxYGB.jpg",
+  "view": 3,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663651341938"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663656679184"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632950eef8b4d1ead27ca4f7"
+  },
+  "name": "SOCIAL BUSINESS TOUR",
+  "type": "Business",
+  "description": "3 DAYS , 2 NIGHTS. Come to North Bengal to experience great archeological sites of Bangladesh such as Mahasthan; North Bengal is also the place where the first settlers of Bangladesh came from, some come and see the start of the great civilization of the people of Bengal.",
+  "location": "Chittagong",
+  "price": 30000,
+  "image": "http://bengallogistics.org/admin/uploads/page//1548221535HUg0p.jpg",
+  "view": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663652078262"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663652078262"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6329524462ca16c84a93b60f"
+  },
+  "name": "DHAKA CITY SIGHTSEEING & SUBURBS",
+  "type": "Escorted",
+  "description": "3 DAYS. In the morning around 08:00 am, the deputed guide will pick you up from your convenient place and immediately drive you to the old part of the city. Your visit will include the places as per your interest from the following; – Sadarghat (Water-Front), Lalbagh Fort, Star Mosque, Armenian Church, Dhakeshwari Temple, Dhaka University campus etc. Back to the pickup place at around 12:30hrs.",
+  "location": "Dhaka",
+  "price": 10000,
+  "image": "http://bengallogistics.org/admin/uploads/page//1548221545s9vMR.jpg",
+  "view": 4,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663652420173"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663661982287"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6329744f7a1f1d4a9501f2f8"
+  },
+  "name": "TRIP TO THE SUNDARBANS FOREST",
+  "type": "Independent",
+  "description": "2 NIGHTS, 3 DAYS. Arrival at Khulna in the morning at around 06:00hrs, and report to our waiting cruiser M. V. DINGHY / M. V. BHELA at forest jetty Khulna, at 07:00am sharp the boat will start cruising towards the Sundarbans Forest. Arrive Kotka wildlife sanctuary at around 1600hrs. Upon arrival hiking in the Kotka forest area to see wildlife and forest. Back to the boat in the evening. Overnight on the boat",
+  "location": "Khulna",
+  "price": 15000,
+  "image": "http://bengallogistics.org/admin/uploads/page//1548221556nu7vp.jpg",
+  "view": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663661135889"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663661135889"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632974ee7a1f1d4a9501f2fd"
+  },
+  "name": "TRIP TO THE CHITTAGONG HILL TRACT",
+  "type": "Inclusive",
+  "description": "4 NIGHTS & 5 DAYS. Arrival at Dhaka international airport & meet our representative, transfer to hotel for check-in, depending on time go for sightseeing including Parliament building (outside) Dhakeswari Temple etc., dinner in a local restaurant and overnight at Dhaka.",
+  "location": "Rangamati",
+  "price": 28000,
+  "image": "http://bengallogistics.org/admin/uploads/page//1548221573xjxdp.jpg",
+  "view": 5,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663661294150"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663661591411"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632975467a1f1d4a9501f2ff"
+  },
+  "name": "ROCKET STEAMER",
+  "type": "Business",
+  "description": "3 Days & 2 Nights. Travel through the rivers just like they did during the British colonial period, watching the beautiful green countryside of Bangladesh slowly pass by, also visit many important towns along the river to get a true feeling for the country.",
+  "location": "Bagerhat",
+  "price": 40000,
+  "image": "http://bengallogistics.org/admin/uploads/page//1548221582oZp91.jpg",
+  "view": 0,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663661382477"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663661382477"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632975e81e99c284404adeb3"
+  },
+  "name": "TRIP TO THE TEA CAPITAL",
+  "type": "Independent",
+  "description": "5 DAYS , 4 NIGHTS. Have you ever enjoyed a good cup of tea? Come and see where your delicious tea comes from by visiting the ‘Tea Capital of Bangladesh’ where you can meet the people who work on the plantations as well as watch the day to day process of making the hot beverage that we all love.",
+  "location": "Sylhet",
+  "price": 50000,
+  "image": "http://bengallogistics.org/admin/uploads/page//1548221593MQ4RO.jpg",
+  "view": 2,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663661544046"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663661602320"
+    }
+  },
+  "__v": 0
+}]

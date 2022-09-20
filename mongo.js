@@ -5,10 +5,10 @@ const mongo = () => {
         useNewUrlParser: true,
     })
         .then(() => {
-            console.log("MongoDB Connected Success")
+            console.log("MongoDB Connected Success".green.bold)
         })
         .catch(err => {
-            console.log("Connecting Failed!")
+            console.log("Connecting Failed!".red.bold)
         })
 }
 

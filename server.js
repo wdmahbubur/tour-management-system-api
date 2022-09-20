@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 const mongo = require("./mongo");
-
+const colors = require("colors");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -17,6 +17,6 @@ app.use("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running in ${PORT}`.green.bold);
+    console.log(`Server running in ${PORT}`.yellow.bold);
     mongo();
 });

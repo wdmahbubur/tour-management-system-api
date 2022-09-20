@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "b1208038-de24-4193-a74f-df7b5debda92",
+		"name": "Tour-Management-System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18771336"
+	},
+	"item": [
+		{
+			"name": "Add New Tour",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"TRIP TO THE TEA CAPITAL\",\r\n    \"type\":\"Independent\",\r\n    \"description\":\"5 DAYS , 4 NIGHTS. Have you ever enjoyed a good cup of tea? Come and see where your delicious tea comes from by visiting the ‘Tea Capital of Bangladesh’ where you can meet the people who work on the plantations as well as watch the day to day process of making the hot beverage that we all love.\",\r\n    \"location\":\"Sylhet\",\r\n    \"price\": 50000,\r\n    \"image\": \"http://bengallogistics.org/admin/uploads/page//1548221593MQ4RO.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/v1/tours/",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Tours",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/v1/tours?sort=-view",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "-view"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Tour-By-Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/v1/tours/6329524462ca16c84a93b60f",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours",
+						"6329524462ca16c84a93b60f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update-Tour-By-Id",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"Escorted\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/v1/tours/6329524462ca16c84a93b60f",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours",
+						"6329524462ca16c84a93b60f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Trending-Tours",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/v1/tours/trending",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours",
+						"trending"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cheapest-Tours",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/v1/tours/cheapest",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours",
+						"cheapest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

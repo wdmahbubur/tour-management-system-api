@@ -1,18 +1,26 @@
 const router = require("express").Router();
 
-const { addUser, getUsers, getUserById, updateUserById, deleteUserById } = require("../../controllers/tour.controller");
+const { addTour, getTours, getTourById, updateTourById, getTrendingTours, getCheapestTours } = require("../../controllers/tour.controller");
+
+router
+    .route("/")
+    .post(addTour)
+    .get(getTours);
 
 
-router.post("/add", addUser);
+router
+    .route("/trending")
+    .get(getTrendingTours);
 
-router.get("/", getUsers);
-router.get("/:id", getUserById);
-
-router.put("/update/:id", updateUserById);
-
-router.delete("/delete/:id", deleteUserById);
+router
+    .route("/cheapest")
+    .get(getCheapestTours);
 
 
+router
+    .route("/:id")
+    .get(getTourById)
+    .patch(updateTourById);
 
 
 module.exports = router;
