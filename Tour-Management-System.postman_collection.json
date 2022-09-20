@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"TRIP TO THE TEA CAPITAL\",\r\n    \"type\":\"Independent\",\r\n    \"description\":\"5 DAYS , 4 NIGHTS. Have you ever enjoyed a good cup of tea? Come and see where your delicious tea comes from by visiting the ‘Tea Capital of Bangladesh’ where you can meet the people who work on the plantations as well as watch the day to day process of making the hot beverage that we all love.\",\r\n    \"location\":\"Sylhet\",\r\n    \"price\": 50000,\r\n    \"image\": \"http://bengallogistics.org/admin/uploads/page//1548221593MQ4RO.jpg\"\r\n}",
+					"raw": "{\r\n    \"name\": \"WORLD HERITAGE TOUR\",\r\n    \"type\":\"Independent\",\r\n    \"description\":\"6 Nights & 5 Days. At around 2:00pm, Meet with guide & drive to the Boat station. Upon arrival in the station,Board on the public launch. Normally the launches depart from Dhaka at around 04:00pm – 5:00pm. Overnight Journey towards Jalokhati (this is the closed destination you can go by boat from Dhaka)\",\r\n    \"location\":\"Rajshahi\",\r\n    \"price\": 22000,\r\n    \"image\": \"http://bengallogistics.org/admin/uploads/page//1548221610WTYqC.jpg\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,9 +21,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{host}}/api/v1/tours/",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/",
+					"protocol": "https",
 					"host": [
-						"{{host}}"
+						"tour-management-system-tour",
+						"onrender",
+						"com"
 					],
 					"path": [
 						"api",
@@ -41,9 +44,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{host}}/api/v1/tours?sort=-view",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours?sort=-view",
+					"protocol": "https",
 					"host": [
-						"{{host}}"
+						"tour-management-system-tour",
+						"onrender",
+						"com"
 					],
 					"path": [
 						"api",
@@ -66,9 +72,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{host}}/api/v1/tours/6329524462ca16c84a93b60f",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/6329524462ca16c84a93b60f",
+					"protocol": "https",
 					"host": [
-						"{{host}}"
+						"tour-management-system-tour",
+						"onrender",
+						"com"
 					],
 					"path": [
 						"api",
@@ -95,9 +104,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{host}}/api/v1/tours/6329524462ca16c84a93b60f",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/6329524462ca16c84a93b60f",
+					"protocol": "https",
 					"host": [
-						"{{host}}"
+						"tour-management-system-tour",
+						"onrender",
+						"com"
 					],
 					"path": [
 						"api",
@@ -115,9 +127,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{host}}/api/v1/tours/trending",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/trending",
+					"protocol": "https",
 					"host": [
-						"{{host}}"
+						"tour-management-system-tour",
+						"onrender",
+						"com"
 					],
 					"path": [
 						"api",
@@ -135,9 +150,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{host}}/api/v1/tours/cheapest",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/cheapest",
+					"protocol": "https",
 					"host": [
-						"{{host}}"
+						"tour-management-system-tour",
+						"onrender",
+						"com"
 					],
 					"path": [
 						"api",
