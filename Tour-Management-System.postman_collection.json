@@ -104,7 +104,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/6329524462ca16c84a93b60f",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tour/6329524462ca16c84a93b60f",
 					"protocol": "https",
 					"host": [
 						"tour-management-system-tour",
@@ -114,7 +114,7 @@
 					"path": [
 						"api",
 						"v1",
-						"tours",
+						"tour",
 						"6329524462ca16c84a93b60f"
 					]
 				}
@@ -127,7 +127,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/trending",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tour/trending",
 					"protocol": "https",
 					"host": [
 						"tour-management-system-tour",
@@ -137,7 +137,7 @@
 					"path": [
 						"api",
 						"v1",
-						"tours",
+						"tour",
 						"trending"
 					]
 				}
@@ -150,7 +150,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tours/cheapest",
+					"raw": "https://tour-management-system-tour.onrender.com/api/v1/tour/cheapest",
 					"protocol": "https",
 					"host": [
 						"tour-management-system-tour",
@@ -160,7 +160,7 @@
 					"path": [
 						"api",
 						"v1",
-						"tours",
+						"tour",
 						"cheapest"
 					]
 				}
